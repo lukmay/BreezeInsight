@@ -1,0 +1,68 @@
+#backend java springboot
+# Compiled class files
+/backend/target/
+/backend/build/
+
+# Package files
+/backend/*.jar
+/backend/*.war
+
+# Logs
+/backend/*.log
+/backend/logs
+
+# Maven
+/backend/pom.xml.tag
+/backend/pom.xml.releaseBackup
+/backend/pom.xml.versionsBackup
+/backend/pom.xml.next
+/backend/release.properties
+/backend/dependency-reduced-pom.xml
+/backend/buildNumber.properties
+/backend/.mvn/timing.properties
+/backend/.mvn/wrapper/maven-wrapper.jar
+/backend/.mvn/wrapper/MavenWrapperDownloader.java
+
+# IDE specific files
+/backend/.classpath
+/backend/.project
+/backend/.settings/
+/backend/.idea/
+/backend/*.iml
+
+# OS files
+/backend/.DS_Store
+
+#frontend react
+# Dependency directories
+/frontend/node_modules/
+
+# Production build folder
+/frontend/build/
+
+# Logs
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# Editor directories and files
+/frontend/.vscode/
+/frontend/.idea/
+/frontend/*.iml
+
+# OS files
+/frontend/.DS_Store
+
+# Misc
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# Ignore npm lock files
+/frontend/package-lock.json
+/frontend/yarn.lock
+
+# Ignore visual stuido files
+.vscode/
+.vs
