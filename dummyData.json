@@ -1,0 +1,42 @@
+{
+    "boxes": [
+        {
+            "boxId": "box001",
+            "records": [
+                {
+                    "uuid": "a1b2c3d4",
+                    "sensorId": "sensor01",
+                    "timestamp": "2024-05-03T12:00:00Z",
+                    "value": 100,
+                    "unit": "Celsius"
+                },
+                {
+                    "uuid": "e5f6g7h8",
+                    "sensorId": "sensor02",
+                    "timestamp": "2024-05-03T12:05:00Z",
+                    "value": 75,
+                    "unit": "Celsius"
+                }
+            ]
+        },
+        {
+            "boxId": "box002",
+            "records": [
+                {
+                    "uuid": "i9j0k1l2",
+                    "sensorId": "sensor03",
+                    "timestamp": "2024-05-03T12:10:00Z",
+                    "value": 50,
+                    "unit": "Celsius"
+                },
+                {
+                    "uuid": "m3n4o5p6",
+                    "sensorId": "sensor04",
+                    "timestamp": "2024-05-03T12:15:00Z",
+                    "value": 25,
+                    "unit": "Celsius"
+                }
+            ]
+        }
+    ]
+}
