@@ -20,17 +20,12 @@ public class Sensor {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long sensorID;
 
+    // used for the charts
     private SensorType type;
 
-    private boolean available;
-
-    private boolean accepted;
-
-    private int updateRateInMS;
-
     @ManyToOne
-    @JoinColumn(name = "room_id")
-    private Room room;
+    @JoinColumn(name = "box_id")
+    private Box box;
 
     @OneToMany(mappedBy = "sensor", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<SensorData> data;

@@ -1,15 +1,7 @@
 package com.hackathon.hackathon.model;
 
 public enum SensorType {
-    Electricity,
-    People,
-    Garbage,
-    AirQuality,
-    HumidityAndTemperature,
+    Humidity,
     Temperature,
-    LightLevel,
-    Weight
-
-
-
+    Window
 }

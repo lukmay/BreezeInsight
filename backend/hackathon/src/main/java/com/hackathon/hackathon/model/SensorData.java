@@ -2,6 +2,7 @@ package com.hackathon.hackathon.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
@@ -20,9 +21,13 @@ public class SensorData {
 
     private float value;
     private LocalDateTime timestamp;
+    private DataType dataType;
 
     @ManyToOne
     @JoinColumn(name = "sensor_id")
+
+
     private Sensor sensor;
+
 
 }

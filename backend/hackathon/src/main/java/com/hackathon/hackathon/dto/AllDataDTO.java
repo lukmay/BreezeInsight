@@ -1,4 +1,17 @@
 package com.hackathon.hackathon.dto;
 
-public class AllData {
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class AllDataDTO {
+
+    private List<BoxRecordsDTO> boxRecordsDTO;
+
+
 }
